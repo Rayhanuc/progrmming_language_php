@@ -37,6 +37,10 @@
                                 <?php echo "PHP Basics – Introduction to PHP and How to Write PHP Code – Part 1 & 2"; ?>
                             </a>
                         </li>
+                        <li><a href="3/index.php" target="_blank">
+                                <?php echo "PHP Basics – Define Functions – Assign Constant Values – Part 3"; ?>
+                            </a>
+                        </li>
 
 
 
