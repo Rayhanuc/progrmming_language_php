@@ -32,7 +32,40 @@
                         <?php echo "<h4>PHP Code: </h4>"; ?>
                         <pre>
 
+$name = 'Rayhan';
+$name .= ' Uddin';
+$name .= ' Chowdhury';
 
+echo $name;
+
+$first_name = 'Rayhan';
+$middle_name = ' Uddin';
+$last_name = ' Chowdhury';
+echo "<br>";
+echo $first_name . " ". $middle_name . " " . $last_name;
+
+echo "<br>";
+var_dump(10 > 5);
+echo "<br>";
+var_dump(10 < 5);
+echo "<br>";
+var_dump(10 >= 5);
+echo "<br>";
+var_dump(10 <= 5);
+echo "<br>";
+var_dump(10 == 5);
+echo "<br>";
+var_dump(10 == 10);
+echo "<br>";
+var_dump(10 != 10);
+echo "<br>";
+var_dump(10 === 10);
+echo "<br>";
+var_dump('10' === 10);
+echo "<br>";
+var_dump('10' !== 10);
+echo "<br>";
+var_dump(10 === 10);
 
                         </pre>
                     </div>
