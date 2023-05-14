@@ -45,6 +45,10 @@
                                 <?php echo "PHP Basics – Expressions and Mathematical Operators – Part 4"; ?>
                             </a>
                         </li>
+                        <li><a href="5/index.php" target="_blank">
+                                <?php echo "PHP Basics – Operators – Part 5"; ?>
+                            </a>
+                        </li>
 
 
 
