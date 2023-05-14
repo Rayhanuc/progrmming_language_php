@@ -41,6 +41,10 @@
                                 <?php echo "PHP Basics – Define Functions – Assign Constant Values – Part 3"; ?>
                             </a>
                         </li>
+                        <li><a href="4/index.php" target="_blank">
+                                <?php echo "PHP Basics – Expressions and Mathematical Operators – Part 4"; ?>
+                            </a>
+                        </li>
 
 
 
