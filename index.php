@@ -49,12 +49,10 @@
                                 <?php echo "PHP Basics – Operators – Part 5"; ?>
                             </a>
                         </li>
-
-
-
-                        
-
-
+                        <li><a href="6/index.php" target="_blank">
+                                <?php echo "PHP Basics – Condition if else – Part 6"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
