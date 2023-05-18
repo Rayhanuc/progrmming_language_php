@@ -57,6 +57,10 @@
                                 <?php echo "PHP Basics – Array – Part 7"; ?>
                             </a>
                         </li>
+                        <li><a href="8/index.php" target="_blank">
+                                <?php echo "PHP Basics – Associative Array – Part 8"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
