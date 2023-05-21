@@ -61,6 +61,10 @@
                                 <?php echo "PHP Basics – Associative Array – Part 8"; ?>
                             </a>
                         </li>
+                        <li><a href="9/index.php" target="_blank">
+                                <?php echo "PHP Basics – Multidimensional Arrays – Part 9"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
