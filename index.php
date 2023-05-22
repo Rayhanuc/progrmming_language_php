@@ -69,6 +69,10 @@
                                 <?php echo "PHP Basics – Using Loops – Part 10"; ?>
                             </a>
                         </li>
+                        <li><a href="11/index.php" target="_blank">
+                                <?php echo "PHP Basics – Do While Loop – Part 11"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
