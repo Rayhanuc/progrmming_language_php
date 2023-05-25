@@ -77,6 +77,10 @@
                                 <?php echo "PHP Basics – For Loop – Part 12"; ?>
                             </a>
                         </li>
+                        <li><a href="13/index.php" target="_blank">
+                                <?php echo "PHP Basics – Foreach Loop – Part 13"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
