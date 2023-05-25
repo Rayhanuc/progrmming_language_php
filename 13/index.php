@@ -39,7 +39,32 @@
                         <pre>
 <code>
 
+$array = [
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
+];
 
+foreach($array as $key => $value) {
+    echo $key . ' : '. $value. '<br>';
+}
+echo "===========<br>";
+
+echo "<h3>10 Multiplication by Foreach loop</h3>";
+foreach($array as $key => $value) {
+    echo '10x' . $value . '=' . $value * 10 . '<br>';
+}
+
+echo "===========<br>";
+$address = [
+    "Name" => "Rayhan Uddin Chowdhury",
+    "Email" => "info@rayhanuddinchy.com",
+    "Age" => "38",
+    "Gender" => "Male",
+    "Profession" => "<strong>Web Development</strong>",
+];
+
+foreach ($address as $key => $value) {
+    echo $key ." : ". $value."<br>";
+}
 
 </code>
                         </pre>
