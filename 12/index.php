@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>PHP Do While Loop</title>
+        <title>PHP For Loop</title>
 
         <!-- bootstrap css link -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -32,37 +32,38 @@
                     <div class="col-md-12">
                         <?php
                         echo "<h1 class='text-center'>Programming Language PHP</h1> \n<br/>";
-                        echo "<h3 class='text-center'>PHP Basics – Do While Loop – Part 11</h3> \n<br/>";
+                        echo "<h3 class='text-center'>PHP Basics – For Loop – Part 12</h3> \n<br/>";
                         ?>
                         <hr>
                         <?php echo "<h4>PHP Code: </h4>"; ?>
                         <pre>
 <code>
 
-echo "<h3>5 Multiplication</h3>";
+echo "<h3>6 Multiplication by For loop</h3>";
 $i = 1;
 
-do {
-    echo $i . 'x5=' . $i*5 . '<br>';
-    $i++;
-} while($i <= 10);
+for ($i = 1; $i <= 10; $i++) {
+    // echo $i . 'x6=' . $i * 7 . '<br>';
+    echo '7x'.  $i .'=' . $i * 7 . '<br>';
+}
 echo "===========<br>";
 
-echo "<h3>7 Multiplication</h3>";
+echo "<h3>3 Multiplication by For loop</h3>";
 $j = 1;
 
- do {
-    echo $j . 'x7=' . $j*7 . '<br/>';
-    $j++;
-} while($j <= 10);
+for ($j = 1; $j <= 10; $j++) {
+    // echo $j . 'x3=' . $j * 3 . '<br>';
+    echo '3x'.  $j .'=' . $j * 3 . '<br>';
+}
 echo "===========<br>";
-echo "<h3>10 Multiplication</h3>";
-$k = 1;
 
-do {
-    echo $k . 'x10=' . $k*10 . '<br/>';
-    $k++;
-} while($k <= 10);
+echo "<h3>8 Multiplication by For loop</h3>";
+$l = 1;
+
+for ($l = 1; $l <= 10; $l++) {
+    echo '8x'.  $l .'=' . $l * 8 . '<br>';
+}
+echo "===========<br>";
 
 </code>
                         </pre>
@@ -80,31 +81,36 @@ do {
                         
 // php code start
 echo "<hr>";
- 
-echo "<h3>5 Multiplication</h3>";
+
+echo "<h3>6 Multiplication by For loop</h3>";
 $i = 1;
 
-do {
-    echo $i . 'x5=' . $i*5 . '<br>';
-    $i++;
-} while($i <= 10);
+for ($i = 1; $i <= 10; $i++) {
+    // echo $i . 'x6=' . $i * 7 . '<br>';
+    echo '7x'.  $i .'=' . $i * 7 . '<br>';
+}
 echo "===========<br>";
 
-echo "<h3>7 Multiplication</h3>";
+echo "<h3>3 Multiplication by For loop</h3>";
 $j = 1;
 
- do {
-    echo $j . 'x7=' . $j*7 . '<br/>';
-    $j++;
-} while($j <= 10);
+for ($j = 1; $j <= 10; $j++) {
+    // echo $j . 'x3=' . $j * 3 . '<br>';
+    echo '3x'.  $j .'=' . $j * 3 . '<br>';
+}
 echo "===========<br>";
-echo "<h3>10 Multiplication</h3>";
-$k = 1;
 
-do {
-    echo $k . 'x10=' . $k*10 . '<br/>';
-    $k++;
-} while($k <= 10);
+echo "<h3>8 Multiplication by For loop</h3>";
+$l = 1;
+
+for ($l = 1; $l <= 10; $l++) {
+    echo '8x'.  $l .'=' . $l * 8 . '<br>';
+}
+echo "===========<br>";
+
+
+
+
 
 // php end
                         ?>
