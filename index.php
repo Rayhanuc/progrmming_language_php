@@ -81,6 +81,14 @@
                                 <?php echo "PHP Basics – Foreach Loop – Part 13"; ?>
                             </a>
                         </li>
+                        <li><a href="14/index.php" target="_blank">
+                                <?php echo "PHP Basics – What are Functions and Why Use Functions – Part 14"; ?>
+                            </a>
+                        </li>
+                        <li><a href="15/index.php" target="_blank">
+                                <?php echo "PHP Basics – Introduction and Usage of Internal Functions – Part 15"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
